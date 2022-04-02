@@ -7,14 +7,14 @@ This file will show you how to create your own indicator and add it to cTrader
 
 On the side bar of your cTrader instance click on the <b>Automate</b> menu.
 
-<img src="https://github.com/bardurt/c-trader-scripts/blob/main/help/add_script_1.png" width="400" height="400">
+<img src="https://github.com/bardurt/c-trader-scripts/blob/main/help/add_script_1.png" width="280" height="400">
 
 
 #### Step 2
 
 On the <b>Automate</b> submenu select <b>Indicators</b>.
 
-<img src="https://github.com/bardurt/c-trader-scripts/blob/main/help/add_script_2.png" width="400" height="400">
+<img src="https://github.com/bardurt/c-trader-scripts/blob/main/help/add_script_2.png" width="380" height="400">
 
 
 #### Step 3
