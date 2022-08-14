@@ -26,11 +26,6 @@ namespace cAlgo
         [Parameter("Pip Size", DefaultValue = 5E-05, MinValue = 1E-05, MaxValue = 1)]
         public double pipsize { get; set; }
 
-        // Draw horizontal lines to highlight the Fair Value Gap
-        [Parameter("Paint Horizontal Lines", DefaultValue = false)]
-        public bool paintHorizontalLines { get; set; }
-
-
         public override void Calculate(int index)
         {
             var nextBar = index - 1;
@@ -79,11 +74,6 @@ namespace cAlgo
    
         private void drawFvg(int index, double high, double low)
         {
-            if (paintHorizontalLines)
-            {
-                ChartObjects.DrawLine("FVG TOP" + index, index, high, index, high, color, 1, LineStyle.Solid);
-                ChartObjects.DrawLine("FVG BOTTOM" + index, index, low, index, low, color, 1, LineStyle.Solid);
-            }
             ChartObjects.DrawLine("FVG" + index, index, high, index, low, color, indicatorWidth, LineStyle.Solid);
         }
     }
