@@ -18,10 +18,16 @@ The Fair Value Gap indicator is based on concepts by <b>Michael J. Huddleston</b
 fvg/FairValueGap.cs
 
 #### Preview
-<img src="https://github.com/bardurt/c-trader-scripts/blob/main/fvg/fvg_sp500.png" width="512" height="512">
+<img src="https://github.com/bardurt/c-trader-scripts/blob/main/fvg/fvg_sp500.png" width="512" height="512"/>
 </br>
 </br>
 
 
 ## Silver Bullet
 Silver bullet are are set ups that occur between [ 10:00 - 11:00 ] and [ 14:00 - 15:00 ] NY time. During this time frames price will reaveal a move. 
+
+#### Location
+silverbullet/SilverBullet.cs
+
+#### Preview
+<img src="https://github.com/bardurt/c-trader-scripts/blob/main/silverbullet/silver_bullet.png" height="512"/>
