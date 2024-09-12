@@ -7,8 +7,12 @@ If you want to know how to add cutom scripts to cTrader please click [here](http
 
 </br>
 
+## Note
+I was requested to write this script by a unamed person. This is not something I use when speculating. 
 
-## 1 - Fair Value Gap
+</br>
+
+## 1 - Fair Value Gap / Price Imbalance
 The Fair Value Gap indicator is based on concepts by <b>Michael J. Huddleston</b> - https://www.youtube.com/c/InnerCircleTrader. It is a 3 bar pattern, bar 1, 2 and 3, where bar 1 and 3 do not intersect eachother. This forms a Fair Value Gap in bar 2 in the space between bar 1 and 3.
 
 <img src="https://github.com/bardurt/c-trader-scripts/blob/main/fvg/fvg.png" width="400" height="400">
